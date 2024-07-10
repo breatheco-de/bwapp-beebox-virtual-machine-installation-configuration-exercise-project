@@ -13,7 +13,7 @@ At 4Geeks Academy, we have chosen to use the virtual machine approach for severa
 Here are the steps to get bWAPP up and running using BeeBox:
 
 1. **Extract the Compressed File:**
-   Download and extract the BeeBox VM file from the [official website](http://www.itsecgames.com/).
+   Download and extract the [BeeBox VM file here](https://storage.googleapis.com/breathecode/virtualbox/bee-box_v1.6.7z).
 
 2. **Double Click on the VM Configuration File:**
    Locate the `bee-box.vmx` file and double-click it, or import the VM into your VMware software.
