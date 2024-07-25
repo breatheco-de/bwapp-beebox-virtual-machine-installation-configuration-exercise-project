@@ -1,0 +1,16 @@
+{
+    "title": {
+        "us": "Installing bWAPP Using a Virtual Machine (BeeBox)",
+        "es": "Instalación de bWAPP Usando una Máquina Virtual (BeeBox)"
+    },
+    "description": {
+        "us": "This practice will guide you through the process of installing bWAPP using a pre-configured virtual machine (BeeBox), including steps for setting up and customizing the environment for web security testing.",
+        "es": "Esta práctica te guiará a través del proceso de instalación de bWAPP usando una máquina virtual preconfigurada (BeeBox), incluyendo los pasos para configurar y personalizar el entorno para pruebas de seguridad web."
+    },
+    "preview": "https://raw.githubusercontent.com/breatheco-de/bwapp-beebox-virtual-machine-installation-configuration-exercise-project/main/assets/preview-bWAPP.png",
+    "repository": "https://github.com/breatheco-de/bwapp-beebox-virtual-machine-installation-configuration-exercise-project",
+    "duration": 1,
+    "difficulty": "beginner",
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+    "technologies": ["cybersecurity","ciberseguridad","web security","virtualization"]
+}

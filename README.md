@@ -15,13 +15,18 @@ Here are the steps to get bWAPP up and running using BeeBox:
 1. **Extract the Compressed File:**
    Download and extract the [BeeBox VM file here](https://storage.googleapis.com/breathecode/virtualbox/bee-box_v1.6.7z).
 
-2. **Double Click on the VM Configuration File:**
-   Locate the `bee-box.vmx` file and double-click it, or import the VM into your VMware software.
+2. **Open VirtualBox:**
+   Launch VirtualBox.
 
-3. **Start the VM:**
-   Launch the VM. It will log in automatically.
+3. **Create a New Virtual Machine:**
+   * Click on New.
+   * Name the VM, select the folder where you extracted the BeeBox VM files, and choose Linux as the type of machine. Leave the default settings for memory and processor.
 
-4. **Check the IP Address of the VM:**
+4. **Configure Storag:**
+   * Go to Settings > Storage.
+   * Add the beebox file you extracted (.vmdk)
+
+5. **Check the IP Address of the VM:**
    Within the VM, check the IP address assigned to it and make sure the network adapter is properly configured.
 
    ![network adapter virtualbox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-adapter-beebox.png)
@@ -44,7 +49,8 @@ Here are the steps to get bWAPP up and running using BeeBox:
 
 > 🔥 IMPORTANT: Avoid upgrading the Linux operating system, as it will diminish the fun by resolving many of the vulnerabilities!
 
-## Important Installation Notes
+## Important Installation Notes:
+   Although these steps are not necessary for the basic installation and configuration of bWAPP using a VM like BeeBox, they provide useful information for maintaining and customizing the environment, as well as for performing more advanced hacking and security testing activities.
 
 * **Linux Credentials:**
   ```
