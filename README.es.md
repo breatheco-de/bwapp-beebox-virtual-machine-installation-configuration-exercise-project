@@ -26,7 +26,7 @@ Aquí están los pasos para poner en marcha bWAPP usando BeeBox:
 
 
 4. **Go to the bWAPP Login Page:**
-   Haz click sobre `bWAPP - start` y el navegador web se abrirá. Usa las credenciales predeterminadas para iniciar sesión, o crea un nuevo usuario.
+   * Haz click sobre `bWAPP - start` y el navegador web se abrirá. Usa las credenciales predeterminadas para iniciar sesión, o crea un nuevo usuario.
 
    ```
    Default credentials 
@@ -35,7 +35,8 @@ Aquí están los pasos para poner en marcha bWAPP usando BeeBox:
    ```
 
 **¡Estás Listo para Explorar y Explotar bWAPP!**
-   Comienza a explorar y explotar las vulnerabilidades dentro de bWAPP en un entorno seguro y controlado.
+
+Comienza a explorar y explotar las vulnerabilidades dentro de bWAPP en un entorno seguro y controlado.
 
 > 🔥  IMPORTANTE: Evita actualizar el sistema operativo Linux, ya que resolverá muchas de las vulnerabilidades y disminuirá la diversión.
 
