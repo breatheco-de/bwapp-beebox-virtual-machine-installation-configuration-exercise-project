@@ -15,36 +15,31 @@ Aquí están los pasos para poner en marcha bWAPP usando BeeBox:
 1. **Extraer el Archivo Comprimido:**
    Descarga y extrae el [archivo de la VM de BeeBox aquí.](https://storage.googleapis.com/breathecode/virtualbox/bee-box_v1.6.7z).
 
-2. **Abrir VirtualBox:**
-   Inicia VirtualBox.
-
-3. **Crear una Nueva Máquina Virtual:**
+2. **Crear una Nueva Máquina Virtual:**
+   * Inicia VirtualBox.
    * Haz clic en Nueva.
-   * Nombra la VM, selecciona la carpeta donde extrajiste los archivos de BeeBox y elige Linux como el tipo de máquina. Deja la configuración por defecto para memoria y procesador.
+   * Nombra la VM y especifica Linux como el tipo de sistema operativo para tu maquina. Luego deja la configuración por defecto para memoria y procesador.
 
-4. **Configurar Almacenamiento:**
+3. **Configurar Almacenamiento:**
    * Ve a Configuración > Almacenamiento.
-   * Añade el archivo de BeeBox que extrajiste (.vmdk)
+   * Añade el archivo que extrajiste en la carpeta `/beebox` con el nombre `beebox.vmdk` 
 
-5. **Verificar la Dirección IP de la VM:**
-   Dentro de la VM, verifica la dirección IP asignada y asegúrate de que el adaptador de red esté configurado correctamente.
 
-   ![network adapter virtualbox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-adapter-beebox.png)
-
-6. **Go to the bWAPP Login Page:**
+4. **Go to the bWAPP Login Page:**
    Abre un navegador web en tu máquina anfitriona y navega a la página de inicio de sesión de bWAPP usando la dirección IP de la VM. Por ejemplo:
+   
    ```
    http://[IP]/bWAPP/
    http://[IP]/bWAPP/login.php
    ```
 
-7. **Iniciar Sesión con las Credenciales Predeterminadas de bWAPP:**
+5. **Iniciar Sesión con las Credenciales Predeterminadas de bWAPP:**
    Usa las credenciales predeterminadas para iniciar sesión, o crea un nuevo usuario.
    ```
    Default credentials: bee/bug
    ```
 
-8. **Estás Listo para Explorar y Explotar bWAPP:**
+6. **Estás Listo para Explorar y Explotar bWAPP:**
    Comienza a explorar y explotar las vulnerabilidades dentro de bWAPP en un entorno seguro y controlado.
 
 > 🔥  IMPORTANTE: Evita actualizar el sistema operativo Linux, ya que resolverá muchas de las vulnerabilidades y disminuirá la diversión.
