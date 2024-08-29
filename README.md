@@ -26,19 +26,15 @@ Here are the steps to get bWAPP up and running using BeeBox:
    * Add the file you extracted in the `/beebox` folder with the name `beebox.vmdk`.
 
 4. **Go to the bWAPP Login Page:**
-   Open a web browser on your host machine and navigate to the bWAPP login page using the VM's IP address. For example:
+   Click on `bWAPP - start` and the web browser will open. Use the default credentials to log in, or create a new user.
+
    ```
-   http://[IP]/bWAPP/
-   http://[IP]/bWAPP/login.php
+   Default credentials 
+   username: bee
+   password: bug
    ```
 
-5. **Login with Default bWAPP Credentials:**
-   Use the default credentials to log in, or create a new user.
-   ```
-   Default credentials: bee/bug
-   ```
-
-6. **You Are Ready to Explore and Exploit bWAPP:**
+**¡You Are Ready to Explore and Exploit bWAPP!**
    Begin exploring and exploiting the vulnerabilities within bWAPP in a safe and controlled environment.
 
 > 🔥 IMPORTANT: Avoid upgrading the Linux operating system, as it will diminish the fun by resolving many of the vulnerabilities!
