@@ -15,37 +15,28 @@ Here are the steps to get bWAPP up and running using BeeBox:
 1. **Extract the Compressed File:**
    Download and extract the [BeeBox VM file here](https://storage.googleapis.com/breathecode/virtualbox/bee-box_v1.6.7z).
 
-2. **Open VirtualBox:**
-   Launch VirtualBox.
 
-3. **Create a New Virtual Machine:**
+2. **Create a New Virtual Machine:**
+   * Launch VirtualBox.
    * Click on New.
-   * Name the VM, select the folder where you extracted the BeeBox VM files, and choose Linux as the type of machine. Leave the default settings for memory and processor.
+   * Name the VM and specify Linux as the operating system type for your machine. Then, leave the default settings for memory and processor.
 
-4. **Configure Storag:**
+3. **Configure Storage:**
    * Go to Settings > Storage.
-   * Add the beebox file you extracted (.vmdk)
+   * Add the file you extracted in the `/beebox` folder with the name `beebox.vmdk`.
 
-5. **Check the IP Address of the VM:**
-   Within the VM, check the IP address assigned to it and make sure the network adapter is properly configured.
+4. **Go to the bWAPP Login Page:**
+   * Click on `bWAPP - start` and the web browser will open. Use the default credentials to log in, or create a new user.
 
-   ![network adapter virtualbox](https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-syllabus/main/assets/network-adapter-beebox.png)
-
-6. **Go to the bWAPP Login Page:**
-   Open a web browser on your host machine and navigate to the bWAPP login page using the VM's IP address. For example:
    ```
-   http://[IP]/bWAPP/
-   http://[IP]/bWAPP/login.php
+   Default credentials 
+   username: bee
+   password: bug
    ```
 
-7. **Login with Default bWAPP Credentials:**
-   Use the default credentials to log in, or create a new user.
-   ```
-   Default credentials: bee/bug
-   ```
+**¡You Are Ready to Explore and Exploit bWAPP!**
 
-8. **You Are Ready to Explore and Exploit bWAPP:**
-   Begin exploring and exploiting the vulnerabilities within bWAPP in a safe and controlled environment.
+Begin exploring and exploiting the vulnerabilities within bWAPP in a safe and controlled environment.
 
 > 🔥 IMPORTANT: Avoid upgrading the Linux operating system, as it will diminish the fun by resolving many of the vulnerabilities!
 
