@@ -11,6 +11,9 @@
     "repository": "https://github.com/breatheco-de/bwapp-beebox-virtual-machine-installation-configuration-exercise-project",
     "duration": 1,
     "difficulty": "beginner",
+    "delivery": {
+		"formats": ["no_delivery"]
+	},
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "technologies": ["cybersecurity","ciberseguridad","pentesting"]
 }
